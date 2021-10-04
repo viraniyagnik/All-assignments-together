@@ -1,0 +1,14 @@
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\bin\Debug\netcoreapp3.1\Assignment 2.exe
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\bin\Debug\netcoreapp3.1\Assignment 2.deps.json
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\bin\Debug\netcoreapp3.1\Assignment 2.runtimeconfig.json
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\bin\Debug\netcoreapp3.1\Assignment 2.runtimeconfig.dev.json
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\bin\Debug\netcoreapp3.1\Assignment 2.dll
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\bin\Debug\netcoreapp3.1\Assignment 2.pdb
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.csproj.AssemblyReference.cache
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.AssemblyInfoInputs.cache
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.AssemblyInfo.cs
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.csproj.CoreCompileInputs.cache
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.dll
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.pdb
+D:\Yagnik\CPIN\Semester_3\IOT 1030 OOP II\Assignments\Assignments\All-assignments-together\Assignment 2\obj\Debug\netcoreapp3.1\Assignment 2.genruntimeconfig.cache
