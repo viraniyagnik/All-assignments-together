@@ -5,10 +5,18 @@ namespace A1
 {
 	class Program 
 	{
+		/// <summary>
+		///  both the Main method and GetMovementRange can access it
+		/// </summary>
+		/// <param name="random"></param>
+		
 		public static Random random; 
 
 		static void Main(string[] args)
 		{
+			/// <summary>
+			/// Picks a random (with replacement) number of cards base on user input.
+			/// </summary>
 			Console.WriteLine("Enter the number of cards to pick: ");
 			string line = Console.ReadLine();
 			if (int.TryParse(line, out int numCards))
@@ -24,8 +32,10 @@ namespace A1
 				Console.WriteLine("Please enter a valid number.");
 			}
 
-			
-			
+
+			/// <summary>
+			/// GetMovementRang the result of the movement range
+			/// </summary>
 			static void GetMovementRange()
             {
 				 
@@ -33,29 +43,23 @@ namespace A1
 				
 			}
 
+			/// <summary>
+			/// the ParticleMovement class so that it is well encapsulated.
+			/// </summary>
 
-			
+
 			ParticleMovement particleMover = new ParticleMovement();
 			while (true)
 			{
 				Console.WriteLine("\n");
 				Console.Write("0 for base movement only\n1 if a magnetic field is present\n" +
 							  "2 if a gravitational field is present\n3 for both fields\n");
-				
-				string key = Console.ReadLine();
 
-				if (key != "0" && key != "1" && key != "2" && key != "3")
-				{
-					Console.WriteLine("Enter valid number between 0-3");
-				}
-				if (key == "0")
-                {
-					GetMovementRange();
-					Console.WriteLine(particleMover.MovementRange);
-					
-                }
+				char key = Console.ReadKey().KeyChar;
+				if (key != '0' && key != '1' && key != '2' && key != '3') return;
+
 				int movementRange = random.Next(1, 7) + random.Next(1, 7) + random.Next(1, 7);
-				
+				GetMovementRange();
 				
 				
 				particleMover.MovementRange = movementRange;
@@ -75,8 +79,7 @@ namespace A1
 		public const int GRAVITY_MOVEMENT = 2;
 
 		
-		//public decimal MagneticMultiplier = 1M;
-		//public int GravityMovement = 0;
+		
 		public int DistanceMoved;
 		private bool gravitationalField;
 		private bool magneticField;
@@ -93,7 +96,10 @@ namespace A1
 				CalculateDistance();
 			}	
 		}
-		
+
+		/// <summary>
+		/// Calculate the distance moved base on formula
+		/// </summary>
 		public void CalculateDistance()
 		{
 			DistanceMoved = (int)(movementRange * Convert.ToInt32(magneticField)) + BASE_MOVEMENT + Convert.ToInt32(gravitationalField);
